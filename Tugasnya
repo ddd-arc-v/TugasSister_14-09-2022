@@ -1,0 +1,10 @@
+def hasil(l,k):
+  print(f'Luas persegi: {l} dan keliling persegi: {k}')
+
+def operasi(s, h):
+  l = s*2
+  k = s*4
+  h(l,k)
+
+if __name__ == '__main__':
+    operasi(7, hasil)
